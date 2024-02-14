@@ -1,0 +1,19 @@
+
+@import url(componemts/banners.css);
+@import url(componemts/buttoms.css);
+@import url(componemts/cards.css);
+@import url(componemts/containers.css);
+@import url(componemts/footers.css);
+
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* Style du corps de la page */
+body {
+    font-family: Utendo, Geneva, Bebas Neue, sans-serif;
+}
+ 

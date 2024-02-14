@@ -1,0 +1,24 @@
+.footer {
+    background-color: rgb(114, 91, 77);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px; /* Espace horizontal entre les icônes */
+    overflow: hidden; /* Cache les parties débordantes des images */
+  }
+  .social-icon img {
+    height: 40px; /* Ou la taille que vous souhaitez pour vos logos */
+    width: auto; /* Garde les proportions des logos */
+  }
+  .social-icon:hover img {
+    filter: brightness(0.8);
+  }
+ 
+/* Style du texte du pied de page */
+.footer p {
+    font-size: 0.8em;
+    margin-top: 20px;
+}
